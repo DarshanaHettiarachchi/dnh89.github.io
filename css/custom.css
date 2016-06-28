@@ -1,11 +1,20 @@
 /* Add here all your CSS customizations */
 #header{
 	padding: 4px;
-	/*border: none;*/
+	border: none;
+}
+
+div.logo{
+    padding-top: 0 !important;
 }
 
 div.logo img{
-  left: -60px;
+  left: -90px;
+    top: -10px !important;
+}
+
+div.logo.logo-sticky-active img{
+    top: 36px !important;
 }
 
 /*Navigaton*/
@@ -45,4 +54,8 @@ section.featured{
 
 .container.vision-mission{
 	font-size: 20px;
+}
+
+span.staff-name{
+font-size: 14px;
 }
