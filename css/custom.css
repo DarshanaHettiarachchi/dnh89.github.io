@@ -59,3 +59,11 @@ section.featured{
 span.staff-name{
 font-size: 14px;
 }
+
+.no-bottom-margin{
+    margin-bottom: 0 !important;
+}
+
+#footer .col-md-4 {
+margin-bottom: 0 !important;
+}
